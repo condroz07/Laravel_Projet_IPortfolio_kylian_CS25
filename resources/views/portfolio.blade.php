@@ -1,0 +1,12 @@
+    @extends('layouts/app')
+    @section('content')
+        @include('partials.navbar')
+        @include('partials.home')
+        @include('partials.about')
+        @include('partials.skills')
+        @include('partials.portfolio')
+        @include('partials.service')
+        @include('partials.testi')
+        @include('partials.contact')
+        @include('partials.footer')
+    @endsection
